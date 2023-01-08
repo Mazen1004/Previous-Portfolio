@@ -13,11 +13,17 @@
     --fw-reg:300;
     --fw-bold:900;
 
+    /*
     --clr-light:#fff;
-    --clr-dark:#303030;
-    --clr-accent:#16e0bd;
-
-
+    --clr-dark:#303030; #1F2833
+    --clr-accent:#16e0bd; 66FCF1
+     */
+    
+    
+    --clr-light:#fff;
+    --clr-dark:#1F2833;
+    --clr-accent:#66FCF1;
+   
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -314,7 +320,7 @@ header{
     position: relative;
 }
 
-.section__title--skills::after{ /*here is the line docaration after skills */
+.section__title--skills::after{ /*here is the line decoration after skills */
     content: '';
     display: block;
     width: 2em;
@@ -325,7 +331,7 @@ header{
 }
 
 .skill{
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -341,7 +347,7 @@ header{
         margin-right: auto;
     }
     .skill+ .skill{
-        margin-left: 2em;
+        margin-left: 3em;
     }
 }
 
